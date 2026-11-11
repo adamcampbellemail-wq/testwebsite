@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Landing Page</title>
+     <!-- links to google font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
+     <!-- links to my stle sheet-->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- wraps header and hero sections together-->
+<div class="header-hero">
+<!--Controls the overall header area.
+     The CSS .site-header can position the logo on the left
+     and navigation on the right using Flexbox.-->
+<header class="site-header">
+     <!-- Creates the clickable words Header Logo. 
+          The CSS .site-logo controls their appearance, 
+          such as font size, weight and colour.-->
+     <a class="site-logo" href="#main">Header Logo</a>
+
+<!-- Groups the navigation links. 
+     The CSS .header-links can arrange 
+     them in a row with spacing between them.-->
+<nav class="header-nav">
+     <!-- list-->
+     <ul class="header-links">
+          <!-- Targets the individual links inside the navigation, 
+               allowing you to change their text colour, 
+               font size and underlining.-->
+          <li><a href="#one">header link one</a></li>
+          <li><a href="#two">header link two</a></li>
+          <li><a href="#three">header link three</a></li>        
+     </ul>
+</nav>
+</header>
+<!-- Groups the hero area together-->
+<section class="hero">
+     <!-- Left column: heading, text and button -->
+     <div class="hero-content">
+          <!-- the main page heading.-->
+          <h1>Celebrating esoteric philosophy, psychology and religion</h1>
+          <!-- contains the supporting text-->
+          <p>Paintings that pursue the understanding of the psyche and unconscious mind through historic and personal symbolic practice.</p>
+               <!-- creates the sign-up button-->
+               </div>
+          <!-- .hero-content and .hero-image should be siblings — both directly inside .hero.-->
+          <!-- Right column: grey image placeholder -->
+          <!-- acts as a grey placeholder instead of a real image.-->
+          <div class="hero-image"></div>
+          </section>
+     </div>
+<section class="events-bar" aria-labelledby="events-heading">
+     <h2 id="events-heading">Upcoming Events</h2>
+     <div class="events-bar-content">
+          <ul class="events-list">
+               <li class="event-row">
+                    <time datetime="2026-10-13">13/10/2026</time>
+                         <div class="event-description">
+                              <p>Be Not Afraid Exhibition</p>
+                              <p>Join me in celebrating the opening night of my second exhibition Be Not Afraid. 
+                              From 7pm - 9pm at The Alchemy Experiment.</p>
+                         </div>
+                         <div class="event-details">
+                              <p>7pm-10pm</p>
+                              <p>The Alchemy Experiment</p>
+                         </div>
+               </li>
+          </ul>
+     </div>
+</section>
+
+
+
+<section class="gallery">
+
+<div class="gallery-grid">
+     <a class="artwork" href="gallery">
+          <div class="artwork-image"></div>
+          <h3  class="artwork-title">The Great Work</h3>
+     </a>
+     <a class="artwork" href="gallery">
+          <div class="artwork-image"></div>
+          <h3  class="artwork-title">The Great Work</h3>
+     </a>
+     <a class="artwork" href="gallery">
+          <div class="artwork-image"></div>
+          <h3  class="artwork-title">The Great Work</h3>
+     </a>
+     <a class="artwork" href="gallery">
+          <div class="artwork-image"></div>
+          <h3  class="artwork-title">The Great Work</h3>
+     </a>
+          <a class="artwork" href="gallery">
+          <div class="artwork-image"></div>
+          <h3  class="artwork-title">The Great Work</h3>
+     </a>
+          <a class="artwork" href="gallery">
+          <div class="artwork-image"></div>
+          <h3  class="artwork-title">The Great Work</h3>
+     </a>
+          <a class="artwork" href="gallery">
+          <div class="artwork-image"></div>
+          <h3  class="artwork-title">The Great Work</h3>
+     </a>
+          <a class="artwork" href="gallery">
+          <div class="artwork-image"></div>
+          <h3  class="artwork-title">The Great Work</h3>
+     </a>
+</div>
+
+</section>
+</body>
+</html>
